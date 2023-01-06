@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-ot&ptw1+o2w7vwo&tb_+t^5$tqo2%ws*%+dul=dm01^iiu67u1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]  #representa los nombres de host/dominio que nuestro sitio de Django puede servir
 
 
 # Application definition
